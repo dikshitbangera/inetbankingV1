@@ -1,0 +1,45 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 183.205 s <<< FAILURE! - in TestSuite
+loginTest2(com.inetbanking.testcases.TC_LoginPageTest_001)  Time elapsed: 0.922 s  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at com.inetbanking.testcases.TC_LoginPageTest_001.loginTest2(TC_LoginPageTest_001.java:79)
+
+loginTestTitle(com.inetbanking.testcases.TC_LoginPageTest_001)  Time elapsed: 3.596 s  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at com.inetbanking.testcases.TC_LoginPageTest_001.loginTestTitle(TC_LoginPageTest_001.java:43)
+
+loginDDT(com.inetbanking.testcases.TC_LoginPageTestDTT_002)  Time elapsed: 3.822 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=81.0.4044.129): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUNITP352016D', ip: '5.250.152.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\dikshit.bangera\Ap...}, goog:chromeOptions: {debuggerAddress: localhost:55051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c897a66a1d3e391e3441ea2e4f2380df
+	at com.inetbanking.testcases.TC_LoginPageTestDTT_002.loginDDT(TC_LoginPageTestDTT_002.java:28)
+
+loginDDT(com.inetbanking.testcases.TC_LoginPageTestDTT_002)  Time elapsed: 5.703 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=81.0.4044.129): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUNITP352016D', ip: '5.250.152.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\dikshit.bangera\Ap...}, goog:chromeOptions: {debuggerAddress: localhost:55051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c897a66a1d3e391e3441ea2e4f2380df
+	at com.inetbanking.testcases.TC_LoginPageTestDTT_002.loginDDT(TC_LoginPageTestDTT_002.java:28)
+
+addcustomer(com.inetbanking.testcases.TC_AddNewCustomer_003)  Time elapsed: 10.655 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=81.0.4044.129): Customer could not be added !!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUNITP352016D', ip: '5.250.152.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\dikshit.bangera\Ap...}, goog:chromeOptions: {debuggerAddress: localhost:55370}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ef2c7f3d344e62bfdcdaa0e734225713
+	at com.inetbanking.testcases.TC_AddNewCustomer_003.addcustomer(TC_AddNewCustomer_003.java:44)
+
